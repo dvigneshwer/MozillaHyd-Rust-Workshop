@@ -2,8 +2,7 @@
 
 ## Creating a new project
 
-Commands
-========
+### Commands
 
 Follow the below steps in the terminal: 
 
@@ -31,8 +30,7 @@ cargo build
 ./target/debug/project_name
 ~~~~
 
-Output: 
-=======
+### Output: 
 
 ![project created](./images/1.png)
 ![tree](./images/2.png)
@@ -43,6 +41,8 @@ Output:
 ![](./images/7.png)
 
 ## Installing a new package
+
+### Commands
 
 ~~~~
 nano Cargo.toml
@@ -57,14 +57,16 @@ rand = { git = "https://github.com/rust-lang-nursery/rand.git", rev = "9f35b8e" 
 or 
 
 cargo add package_name
-~~~
+~~~~
 
-Output:
-=======
+### Output:
 
 ![](./images/15.png)
 
+
 ## Testing with Cargo 
+
+### Commands:
 
 ~~~~
 // Running all the test file 
@@ -75,6 +77,8 @@ cargo test test_name
 ~~~~
 
 ## Building projects on Travis CI 
+
+## Commands:
 
 ~~~~
 touch .travis.yml
@@ -92,12 +96,14 @@ allow_failures:
 
 ~~~~
 
-Output:
-=======
+### Output:
 
 ![](./images/27.png)
 
+
 ## Uploading to Crates.io 
+
+## Commands:
 
 ~~~~
 // Go to https://cargo.io
