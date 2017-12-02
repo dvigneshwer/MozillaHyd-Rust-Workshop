@@ -76,7 +76,7 @@ rustup default nightly
 rustup update
 ~~~~
 
-* rustfmy installation:
+* rustfmt installation:
 
 ~~~~
 rustup install nightly
